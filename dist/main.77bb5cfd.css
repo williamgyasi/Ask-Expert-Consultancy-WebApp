@@ -19,4 +19,58 @@ body {
   color: "#F5F5F5";
 }
 
+.heading-01 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.heading-02 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 4.5rem;
+}
+
+.heading-03 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 4rem;
+}
+
+.heading-04 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 3.5rem;
+}
+
+.heading-05 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.heading-06 {
+  font-weight: 600;
+  font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: "#1C1C1C";
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

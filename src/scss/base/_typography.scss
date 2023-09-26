@@ -1,4 +1,31 @@
-@mixin heading-01(){
-    font-family: "Cabin";
-    font-weight: 600;
+@use "../abstracts" as *;
+
+.heading-01 {
+  @include baseHeadingStyles();
+  font-size: 5rem;
+}
+
+.heading-02 {
+  @include baseHeadingStyles();
+  font-size: 4.5rem;
+}
+
+.heading-03 {
+  @include baseHeadingStyles();
+  font-size: 4rem;
+}
+
+.heading-04 {
+  @include baseHeadingStyles();
+  font-size: 3.5rem;
+}
+
+.heading-05 {
+  @include baseHeadingStyles();
+  font-size: 3rem;
+}
+
+.heading-06 {
+  @include baseHeadingStyles();
+  font-size: 2.5rem;
 }

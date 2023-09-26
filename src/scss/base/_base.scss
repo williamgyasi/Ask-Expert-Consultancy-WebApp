@@ -1,10 +1,8 @@
 @use "../abstracts" as *;
 
 //CONTAINS ALL BASE CODE
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Cabin:wght@100;300;400;500;700;900&display=swap");
-:root{
-  
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Cabin:wght@100;300;400;500;600;700;900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -17,4 +15,10 @@ body {
   font-family: $main-text-stack;
   line-height: 1.5;
   font-weight: 300;
+  font-size: 62.5%;
+}
+
+::selection{
+  background-color: $primary-color;
+  color: $secondary-color;
 }

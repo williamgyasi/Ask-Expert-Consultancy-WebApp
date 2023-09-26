@@ -7,11 +7,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   font-weight: 300;
-  font-size: 62.5%;
 }
 
 ::selection {
@@ -22,7 +25,6 @@ body {
 .heading-01 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 5rem;
@@ -31,7 +33,6 @@ body {
 .heading-02 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 4.5rem;
@@ -40,7 +41,6 @@ body {
 .heading-03 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 4rem;
@@ -49,7 +49,6 @@ body {
 .heading-04 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 3.5rem;
@@ -58,7 +57,6 @@ body {
 .heading-05 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 3rem;
@@ -67,10 +65,18 @@ body {
 .heading-06 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
   color: "#1C1C1C";
   font-style: normal;
   font-size: 2.5rem;
+}
+
+.subtitle {
+  color: "#FFCC4A";
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.5%;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

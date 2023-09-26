@@ -3,7 +3,6 @@
 @mixin baseHeadingStyles(){
     font-weight: 600;
     font-family: "Cabin", $main-text-stack;
-    line-height: 1.5;
     color: $base-text-color;
     font-style: normal;
 }

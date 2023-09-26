@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.77bb5cfd.css","sourceRoot":"..\\src"}
+{"version":3,"sources":["scss\\base\\_base.scss"],"names":[],"mappings":"AAEA;AAAA;AAAA;EAGE;EACA;EACA","file":"main.77bb5cfd.css","sourceRoot":"..\\src","sourcesContent":["//CONTAINS ALL BASE CODE \r\n\r\n*,\r\n*::before,\r\n*::after {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n"]}

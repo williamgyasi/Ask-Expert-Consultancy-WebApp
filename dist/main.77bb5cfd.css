@@ -17,7 +17,7 @@ body {
 }
 
 ::selection {
-  background-color: "#FFCC4A";
+  background-color: rgb(255, 204, 74);
   color: "#F5F5F5";
 }
 
@@ -78,6 +78,39 @@ body {
   line-height: 147.5%;
   width: 895px;
   height: 174.809px;
+}
+
+.btn {
+  border-radius: 42px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 20px;
+  line-height: 160%; /* 28.8px */
+}
+.btn--black {
+  padding: 16px 22px;
+  color: #fff;
+  background-color: rgb(24, 24, 24);
+  transition: background-color 0.1s linear;
+}
+.btn--black:hover {
+  background-color: transparent;
+  border: 2px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
+}
+.btn--primary {
+  padding: 16px 27px;
+  color: rgb(24, 24, 24);
+  background-color: rgb(255, 204, 74);
+}
+.btn--primary:hover {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

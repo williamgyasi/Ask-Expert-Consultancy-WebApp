@@ -1,3 +1,36 @@
-.btn{
-    
+@use "../abstracts" as *;
+
+.btn {
+  border-radius: 42px;
+  display: inline-block;
+  color: $secondary-color-02;
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 20px;
+  line-height: 160%; /* 28.8px */
+
+  &--black {
+    padding: 16px 22px;
+    color: #fff;
+    background-color: $primary-color-03;
+    transition: background-color 0.1s linear;
+    &:hover {
+      background-color: transparent;
+      border: 2px solid $primary-color-03;
+      color: $primary-color-03;
+    }
+  }
+
+  &--primary {
+    padding: 16px 27px;
+    color: $primary-color-03;
+    background-color: $primary-color;
+    &:hover {
+      background-color: $primary-color-03;;
+      color: #fff;
+    }
+  }
 }

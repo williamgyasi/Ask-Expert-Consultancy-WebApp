@@ -6,7 +6,6 @@
 
   &__hero {
     height: 100%;
-    background-color: blue;
   }
 
   &__topsection {
@@ -25,18 +24,25 @@
       text-align: center;
       svg {
         font-size: 1rem;
-        vertical-align: .01rem;
+        vertical-align: 0.01rem;
         margin-right: 0.3rem;
         color: $primary-color;
       }
-      
-      .social-icon{
-       color: #fff; 
-       font-size: 1.5rem;
-       &:not(:last-child){
-        margin-right: 1rem;
-       }
+
+      .social-icon {
+        color: #fff;
+        font-size: 1.5rem;
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
       }
     }
+  }
+
+  &__banner {
+    height: 80%;
+    background: url("../../src/assets/herobanner.png");
+    background-size: cover;
+    background-position: top;
   }
 }

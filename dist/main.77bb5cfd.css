@@ -114,21 +114,21 @@ a {
 .btn--black {
   padding: 16px 22px;
   color: #fff;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(0, 0, 0);
   transition: background-color 0.1s linear;
 }
 .btn--black:hover {
   background-color: transparent;
-  border: 2px solid rgb(24, 24, 24);
-  color: rgb(24, 24, 24);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 .btn--primary {
   padding: 16px 27px;
-  color: rgb(24, 24, 24);
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 204, 74);
 }
 .btn--primary:hover {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(0, 0, 0);
   color: #fff;
 }
 
@@ -157,11 +157,10 @@ a {
 }
 .header__hero {
   height: 100%;
-  background-color: blue;
 }
 .header__topsection {
   height: 5%;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(0, 0, 0);
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -187,6 +186,12 @@ a {
 .header__topsection__item .social-icon:not(:last-child) {
   margin-right: 1rem;
 }
+.header__banner {
+  height: 80%;
+  background: url("/herobanner.cf3fc5f4.png");
+  background-size: cover;
+  background-position: top;
+}
 
 .nav {
   height: 15%;
@@ -196,7 +201,7 @@ a {
   padding: 4rem 19rem;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(27, 27, 27, 0.91);
+  background-color: #000;
   backdrop-filter: blur(10.5px);
 }
 .nav__logo {

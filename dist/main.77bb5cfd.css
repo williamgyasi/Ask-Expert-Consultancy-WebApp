@@ -33,6 +33,10 @@ a {
   margin-right: 1rem;
 }
 
+.margin-top--sm {
+  margin-top: 1rem;
+}
+
 .heading-01 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -104,15 +108,14 @@ a {
   display: inline-block;
   color: rgb(255, 255, 255);
   font-family: "Lato";
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  gap: 20px;
   line-height: 160%; /* 28.8px */
 }
 .btn--black {
-  padding: 16px 22px;
+  padding: 10px 22px;
   color: #fff;
   background-color: rgb(0, 0, 0);
   transition: background-color 0.1s linear;
@@ -130,6 +133,20 @@ a {
 .btn--primary:hover {
   background-color: rgb(0, 0, 0);
   color: #fff;
+}
+.btn--icon {
+  background-color: #fff;
+  padding: 8px 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn--group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .icon__button {
@@ -191,6 +208,28 @@ a {
   background: url("/herobanner.cf3fc5f4.png");
   background-size: cover;
   background-position: top;
+  position: relative;
+}
+.header__banner__info {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  background-color: #fff;
+  display: flex;
+  width: 400px;
+  padding: 40px 50px;
+  flex-direction: column;
+  border-radius: 29px;
+  background: rgba(255, 255, 255, 0.69);
+  backdrop-filter: blur(5.5px);
+}
+.header__banner__info p {
+  color: #595566;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.5%;
 }
 
 .nav {

@@ -5,15 +5,14 @@
   display: inline-block;
   color: $secondary-color-02;
   font-family: "Lato";
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  gap: 20px;
   line-height: 160%; /* 28.8px */
 
   &--black {
-    padding: 16px 22px;
+    padding: 10px 22px;
     color: #fff;
     background-color: $primary-color-03;
     transition: background-color 0.1s linear;
@@ -32,6 +31,23 @@
       background-color: $primary-color-03;
       color: #fff;
     }
+  }
+
+  &--icon {
+    background-color: #fff;
+    padding: 8px 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  &--group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
   }
 }
 

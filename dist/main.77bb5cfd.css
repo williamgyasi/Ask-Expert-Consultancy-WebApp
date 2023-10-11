@@ -21,8 +21,16 @@ body {
   color: "#F5F5F5";
 }
 
+a {
+  text-decoration: none;
+}
+
 .text--white {
   color: #fff;
+}
+
+.margin-right--sm {
+  margin-right: 1rem;
 }
 
 .heading-01 {
@@ -87,6 +95,9 @@ body {
   font-size: 1.4rem;
   color: #fff;
 }
+.subtitle--white {
+  color: white;
+}
 
 .btn {
   border-radius: 42px;
@@ -119,6 +130,24 @@ body {
 .btn--primary:hover {
   background-color: rgb(24, 24, 24);
   color: #fff;
+}
+
+.icon__button {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 41px 8px 10px;
+  border-radius: 12rem;
+  cursor: pointer;
+}
+.icon__buttontext {
+  color: rgba(53, 53, 53, 0.8274509804);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
 }
 
 .header {
@@ -164,10 +193,47 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 4rem 36rem;
+  padding: 4rem 19rem;
   align-items: center;
+  justify-content: space-evenly;
   background-color: rgba(27, 27, 27, 0.91);
   backdrop-filter: blur(10.5px);
+}
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+}
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav__linkitem {
+  padding: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+.nav__linklogo {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+  transition: all 0.6s linear;
+}
+.nav__link {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.6s linear;
+}
+.nav__linkitem:hover .nav__link {
+  color: green;
+  font-size: 1.5rem;
+}
+.nav__linkitem:hover .nav__linklogo {
+  fill: green;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

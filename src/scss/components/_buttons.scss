@@ -34,3 +34,22 @@
     }
   }
 }
+
+.icon__button {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 41px 8px 10px;
+  border-radius: 12rem;
+  cursor: pointer;
+
+  &text {
+    color: #353535d3;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+}

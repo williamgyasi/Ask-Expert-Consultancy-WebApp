@@ -1,0 +1,42 @@
+@use "../abstracts/variables" as *;
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+
+  &__hero {
+    height: 100%;
+    background-color: blue;
+  }
+
+  &__topsection {
+    height: 5%;
+    background-color: $primary-color-03;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__item {
+      padding: 10px;
+      display: inline-block;
+      text-align: center;
+      svg {
+        font-size: 1rem;
+        vertical-align: .01rem;
+        margin-right: 0.3rem;
+        color: $primary-color;
+      }
+      
+      .social-icon{
+       color: #fff; 
+       font-size: 1.5rem;
+       &:not(:last-child){
+        margin-right: 1rem;
+       }
+      }
+    }
+  }
+}

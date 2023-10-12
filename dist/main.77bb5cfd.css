@@ -106,6 +106,7 @@ a {
 }
 .subtitle--black {
   color: #000;
+  font-weight: 700;
 }
 
 .btn {
@@ -188,12 +189,8 @@ a {
   width: auto;
 }
 
-main {
-  padding: 0 22%;
-}
-
 .about {
-  margin-top: 10%;
+  margin: 10% 0;
 }
 .about__container {
   display: flex;
@@ -202,8 +199,12 @@ main {
   align-items: flex-start;
 }
 .about__details {
-  flex-basis: 45%;
-  margin-right: 4rem;
+  flex-basis: 50%;
+  margin-right: 7rem;
+}
+.about__details__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
 }
 .about .intro__text {
   padding: 0.4rem;
@@ -225,6 +226,16 @@ main {
   position: relative;
   flex: 1;
 }
+.about__image__stats {
+  position: absolute;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: -5px 22px 26px 0px rgba(95, 95, 95, 0.25);
+  display: flex;
+  align-items: center;
+  bottom: 4rem;
+  left: -2rem;
+}
 .about__image__main {
   width: auto;
   height: 300px;
@@ -233,10 +244,43 @@ main {
 .about__image__pattern {
   position: absolute;
   z-index: -1;
-  height: 300px;
+  height: 200px;
   width: auto;
-  bottom: -6rem;
-  left: -5rem;
+  bottom: -4rem;
+  left: -2rem;
+}
+
+.stats {
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+.stats__item {
+  border-radius: 15px;
+  background: #f6f6f6;
+  padding: 1.1rem 2rem;
+}
+.stats__item svg {
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 1rem;
+}
+.stats__item h3 {
+  display: inline-block;
+  font-size: 3rem;
+}
+.stats__item p {
+  color: #181818;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.5%;
 }
 
 .header {

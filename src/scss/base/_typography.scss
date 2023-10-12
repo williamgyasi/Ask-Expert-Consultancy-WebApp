@@ -30,6 +30,7 @@
   font-size: 2.5rem;
 }
 
+
 .subtitle {
   color: #595566;
   font-family: "Lato";
@@ -47,6 +48,9 @@
 
   &--white{
     color: white;
+  }
+  &--black{
+    color:#000;
   }
 }
 

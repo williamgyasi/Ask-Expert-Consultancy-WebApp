@@ -325,11 +325,21 @@ a {
   font-size: 2rem;
 }
 .services__listitem p {
+  color: #595566;
+  font-family: Lato;
   font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 147.5%; /* 23.6px */
 }
 .services__listitem svg {
   height: 30px;
   width: 30px;
+}
+
+.process {
+  padding: 5% 20%;
 }
 
 .header {

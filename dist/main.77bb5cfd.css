@@ -110,10 +110,11 @@ a {
 
 .subtitle {
   color: #595566;
-  font-family: "Lato";
-  font-size: 1.6rem;
+  font-family: Lato;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
+  margin-top: 1rem;
   line-height: 147.5%;
 }
 .subtitle--sm {
@@ -377,7 +378,7 @@ a {
   flex-direction: column;
   flex-basis: 40%;
   align-items: flex-start;
-  margin-right: 3rem;
+  margin-right: 8rem;
 }
 .process__content h4 {
   width: 90%;
@@ -389,11 +390,6 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 147.5%; /* 23.6px */
-}
-.process__clients {
-  align-self: flex-start;
-  background-color: yellow;
-  flex: 1;
 }
 .process__steps {
   border-top: 1px solid #c1c1c1;
@@ -438,6 +434,10 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 116%;
+}
+.process__clients {
+  align-self: flex-start;
+  flex: 1;
 }
 .header {
   height: 100vh;

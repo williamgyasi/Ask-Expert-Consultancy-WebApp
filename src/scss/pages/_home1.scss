@@ -208,7 +208,7 @@ main {
     flex-basis: 40%;
     // background-color: blue;
     align-items: flex-start;
-    margin-right: 3rem;
+    margin-right: 8rem;
 
     h4 {
       width: 90%;
@@ -223,11 +223,7 @@ main {
     }
   }
 
-  &__clients {
-    align-self: flex-start;
-    background-color: yellow;
-    flex: 1;
-  }
+ 
 
   &__steps {
     border-top: 1px solid #c1c1c1;
@@ -281,8 +277,14 @@ main {
     }
   }
 
+  &__clients {
+    align-self: flex-start;
+    // background-color: yellow;
+    flex: 1;
+  }
+
   &__stepsitemscontent {
-    
+
   }
 
 }

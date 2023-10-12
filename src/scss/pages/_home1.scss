@@ -223,11 +223,9 @@ main {
     }
   }
 
- 
-
   &__steps {
     border-top: 1px solid #c1c1c1;
-    border-bottom: 1px solid #c1c1c1;
+    // border-bottom: 1px solid #c1c1c1;
     padding: 1rem 0;
   }
 
@@ -247,8 +245,11 @@ main {
       background-color: green;
     }
     &:nth-child(3) > div > div {
-        background-color: black;
-      }
+      background-color: $primary-color-03;
+    }
+    &:nth-child(3) {
+      border: none;
+    }
   }
 
   &__stepsitemsnumber {
@@ -283,8 +284,23 @@ main {
     flex: 1;
   }
 
-  &__stepsitemscontent {
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
+    &__item {
+      border-radius: 20px;
+      border: 1px solid #eaeaea;
+      background: #fafafa;
+      width: 210px;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      padding: 2rem;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
-
 }

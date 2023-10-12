@@ -102,7 +102,16 @@ a {
 .heading--sm {
   color: #181818;
   font-family: Cabin;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+.heading--lg {
+  color: #181818;
+  font-family: Cabin;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 116%;
@@ -114,7 +123,7 @@ a {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   line-height: 147.5%;
 }
 .subtitle--sm {
@@ -393,7 +402,6 @@ a {
 }
 .process__steps {
   border-top: 1px solid #c1c1c1;
-  border-bottom: 1px solid #c1c1c1;
   padding: 1rem 0;
 }
 .process__stepsitems {
@@ -410,7 +418,10 @@ a {
   background-color: green;
 }
 .process__stepsitems:nth-child(3) > div > div {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+}
+.process__stepsitems:nth-child(3) {
+  border: none;
 }
 .process__stepsitemsnumber {
   position: relative;
@@ -439,6 +450,25 @@ a {
   align-self: flex-start;
   flex: 1;
 }
+.process__features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.process__features__item {
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  background: #fafafa;
+  width: 210px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.process__features__item svg {
+  width: 30px;
+  height: 30px;
+}
+
 .header {
   height: 100vh;
   width: 100vw;

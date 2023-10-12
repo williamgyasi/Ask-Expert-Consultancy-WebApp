@@ -33,7 +33,16 @@
 .heading--sm {
   color: #181818;
   font-family: Cabin;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116%;
+}
+
+.heading--lg {
+  color: #181818;
+  font-family: Cabin;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 116%;
@@ -45,7 +54,7 @@
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
-  margin-top: 1rem;
+  margin-top: .8rem;
   line-height: 147.5%;
 
   &--sm {

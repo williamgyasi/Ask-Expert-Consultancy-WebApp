@@ -57,6 +57,10 @@
   margin-top: .8rem;
   line-height: 147.5%;
 
+  &--primary{
+    color: $primary-color;
+  }
+
   &--sm {
     font-size: 1.4rem;
     color: #fff;

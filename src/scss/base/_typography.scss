@@ -70,3 +70,23 @@
     font-weight: 700;
   }
 }
+
+.intro__text {
+  padding: 0.4rem;
+  background-color: $primary-color;
+  display: inline-block;
+  font-size: 1.1rem;
+  border-radius: 12rem;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 147.5%; /* 23.6px */
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+  color: $primary-color-03;
+  margin-bottom: 1rem;
+
+  &--green {
+    background-color: green;
+    color: #fff;
+  }
+}

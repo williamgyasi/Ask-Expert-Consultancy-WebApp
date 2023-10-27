@@ -180,7 +180,7 @@ a {
   color: rgb(0, 0, 0);
 }
 .btn--primary {
-  padding: 16px 27px;
+  padding: 10px 17px;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 204, 74);
 }
@@ -492,11 +492,16 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: red;
 }
 .gallery__heading {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.gallery__heading h4 {
+  width: 60%;
 }
 
 .header {

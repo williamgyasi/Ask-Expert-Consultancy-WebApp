@@ -503,6 +503,17 @@ a {
 .gallery__heading h4 {
   width: 60%;
 }
+.gallery__images {
+  height: 500px;
+  background-color: red;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .header {
   height: 100vh;

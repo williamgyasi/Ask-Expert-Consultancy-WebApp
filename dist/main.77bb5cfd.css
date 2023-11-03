@@ -228,6 +228,31 @@ a {
   line-height: 160%;
 }
 
+.card {
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.card__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.slide__content {
+  background-color: blue;
+}
+
 .brands {
   width: 90%;
   max-width: 100%;
@@ -567,6 +592,7 @@ a {
 
 .testimony {
   padding: 5% 20%;
+  background-color: red;
 }
 
 .header {

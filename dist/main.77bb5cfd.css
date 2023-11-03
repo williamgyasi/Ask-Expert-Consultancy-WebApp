@@ -228,29 +228,36 @@ a {
   line-height: 160%;
 }
 
-.card {
-  background-color: #fff;
-  border-radius: 25px;
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wraper {
+  background-color: blue;
+}
+.swiper h4 {
+  width: 60%;
+  margin: 0 auto;
+}
+.swiper img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 4rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.card__image {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-}
-.card__img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 100px;
-}
 
-.slide__content {
-  background-color: blue;
+.swiper-button-next {
+  background-color: yellow;
 }
 
 .brands {
@@ -592,7 +599,10 @@ a {
 
 .testimony {
   padding: 5% 20%;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {

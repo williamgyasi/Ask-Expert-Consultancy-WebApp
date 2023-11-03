@@ -565,6 +565,11 @@ a {
   color: white;
 }
 
+.testimony {
+  padding: 5% 20%;
+  background-color: red;
+}
+
 .header {
   height: 100vh;
   width: 100vw;

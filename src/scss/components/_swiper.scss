@@ -1,10 +1,6 @@
 .swiper {
   width: 100%;
   height: 100%;
-  &-wraper {
-    background-color: blue;
-  }
-
   h4 {
     width: 60%;
     margin: 0 auto;
@@ -30,7 +26,8 @@
 }
 
 .swiper-button-next {
-  background-color: yellow;
+  border-radius: 10px;
+  background-color: #ccc;
   color: red;
-  
+  position: absolute;
 }

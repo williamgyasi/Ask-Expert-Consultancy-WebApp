@@ -232,9 +232,6 @@ a {
   width: 100%;
   height: 100%;
 }
-.swiper-wraper {
-  background-color: blue;
-}
 .swiper h4 {
   width: 60%;
   margin: 0 auto;
@@ -257,8 +254,10 @@ a {
 }
 
 .swiper-button-next {
-  background-color: yellow;
+  border-radius: 10px;
+  background-color: #ccc;
   color: red;
+  position: absolute;
 }
 
 .brands {

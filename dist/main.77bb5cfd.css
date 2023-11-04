@@ -49,6 +49,10 @@ a {
   margin: 0;
 }
 
+.text--greeen {
+  color: green;
+}
+
 .heading-01 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -142,6 +146,10 @@ a {
 }
 .subtitle--black {
   color: #000;
+  font-weight: 700;
+}
+.subtitle--green {
+  color: green;
   font-weight: 700;
 }
 
@@ -262,7 +270,7 @@ a {
 .swiper-button-prev {
   display: flex;
   background-color: #ccc;
-  width: 100px;
+  width: 80px;
   border-radius: 100px;
   padding: 1rem;
 }

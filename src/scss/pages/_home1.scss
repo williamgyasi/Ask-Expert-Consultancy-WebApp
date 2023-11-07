@@ -426,12 +426,17 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
     // width: 50rem;
-    flex-basis: 50%;
-    // background-color: blue;
+    cursor: pointer;
+    flex-basis: 48%;
+    
+    &:not(:last-child){
+      // background-color: blue;
+      margin-right: 3rem;
+    }
 
     & > img {
       width: auto;
-      height: 25.5rem;
+      height: 28rem;
       border-radius: 1rem;
       object-fit: contain;
     }
@@ -459,23 +464,33 @@ main {
     }
   }
   &__stats {
-    // display: flex;
-    // flex-direction: row;
+    display: flex;
+    flex-direction: row;
     // background-color: red;
-    // align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     padding: 1rem;
     margin-top: 1rem;
     border-top: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
+
+    &>div{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      // background-color: red;
+      width: 70%;
+    }
 
     h6 {
       color: #595566;
       font-family: Lato;
       font-size: 1rem;
       font-style: normal;
-      
       font-weight: 400;
-      line-height: 147.5%; /* 23.6px */
+      width: 40%;
+      // line-height: 147.5%; /* 23.6px */
     }
   }
 

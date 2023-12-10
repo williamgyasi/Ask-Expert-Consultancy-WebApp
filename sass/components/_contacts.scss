@@ -1,3 +1,4 @@
+@use "../abstracts/variables" as *;
 .section-contact {
   background-color: #ffffff;
   padding: 5% 20%;
@@ -50,7 +51,7 @@
     flex-direction: row;
     align-items: center;
 
-    &>*{
+    & > * {
       width: 50%;
     }
   }
@@ -76,7 +77,7 @@
     background: #fff;
 
     &:focus {
-      outline: 3px solid orange;
+      outline: 3px solid $primary-color;
     }
   }
 }

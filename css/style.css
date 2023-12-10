@@ -359,7 +359,7 @@ a {
   background: #fff;
 }
 .form__input:focus {
-  outline: 3px solid orange;
+  outline: 3px solid rgb(255, 204, 74);
 }
 
 .brands {

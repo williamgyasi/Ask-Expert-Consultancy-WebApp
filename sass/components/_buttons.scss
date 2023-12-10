@@ -1,15 +1,19 @@
 @use "../abstracts" as *;
 
 .btn {
-  border-radius: 42px;
-  display: inline-block;
-  color: $secondary-color-02;
-  font-family: "Lato";
-  font-size: 1.4rem;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  line-height: 160%; /* 28.8px */
+  &,
+  &:link,
+  &:visited {
+    border-radius: 42px;
+    display: inline-block;
+    color: $secondary-color-02;
+    font-family: "Lato";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 160%; /* 28.8px */
+  }
 
   &--black {
     padding: 10px 22px;
@@ -40,10 +44,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
   }
 
-  &--group{
+  &--group {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -182,7 +182,7 @@ a {
   color: #fff;
 }
 
-.btn {
+.btn, .btn:link, .btn:visited {
   border-radius: 42px;
   display: inline-block;
   color: rgb(255, 255, 255);

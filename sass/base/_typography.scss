@@ -60,8 +60,7 @@
   &--small {
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 400;
-    line-height: 147.5%; /* 23.6px */
+    font-weight: 400; /* 23.6px */
   }
 
   &--primary {
@@ -79,6 +78,7 @@
   &--black {
     color: #000;
     font-weight: 700;
+    font-size: 2rem;
   }
   &--green {
     color: green;

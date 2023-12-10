@@ -29,6 +29,10 @@ a {
   color: #fff;
 }
 
+.u-no-margin {
+  margin: 0 !important;
+}
+
 .margin-right--sm {
   margin-right: 1rem;
 }
@@ -137,8 +141,7 @@ a {
 .subtitle--small {
   font-size: 1.6rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: 147.5%; /* 23.6px */
+  font-weight: 400; /* 23.6px */
 }
 .subtitle--primary {
   color: rgb(255, 204, 74);
@@ -153,6 +156,7 @@ a {
 .subtitle--black {
   color: #000;
   font-weight: 700;
+  font-size: 2rem;
 }
 .subtitle--green {
   color: green;
@@ -308,12 +312,54 @@ a {
   height: 50rem;
 }
 .contact__left {
-  flex-basis: 40%;
-  margin-right: 5rem;
+  flex-basis: 35%;
+  margin-right: 8rem;
+}
+.contact__group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact__group:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.contact__group svg {
+  width: 5.5rem;
+  height: 5.5rem;
+  margin-right: 1.4rem;
 }
 .contact__right {
-  background-color: red;
   flex: 1;
+}
+
+.form__group__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form__group__container > * {
+  width: 50%;
+}
+.form__label {
+  display: block;
+  color: #63616a;
+  font-family: Lato;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.form__input {
+  width: 90%;
+  display: block;
+  padding: 1.5rem 1rem;
+  border-radius: 3.4rem;
+  border: 1px solid #c1c1c1;
+  background: #fff;
+}
+.form__input:focus {
+  outline: 3px solid orange;
 }
 
 .brands {

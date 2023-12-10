@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/main.js"],"names":["arr","console","log"],"mappings":";AAAA,IAAMA,EAAM,CAAC,MAEbC,QAAQC,IAAIF","file":"main.9dc7bd16.js","sourceRoot":"..\\src","sourcesContent":["const arr = [2123];\r\n\r\nconsole.log(arr)"]}

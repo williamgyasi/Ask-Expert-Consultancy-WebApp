@@ -37,11 +37,11 @@ a {
   margin-top: 1rem;
 }
 
-.margin-bottom--sm {
+.u-margin-bottom--sm {
   margin-bottom: 1rem;
 }
 
-.margin-bottom--lg {
+.u-margin-bottom--lg {
   margin-bottom: 3rem;
 }
 
@@ -133,6 +133,12 @@ a {
   font-weight: 400;
   margin-top: 0.8rem;
   line-height: 147.5%;
+}
+.subtitle--small {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.5%; /* 23.6px */
 }
 .subtitle--primary {
   color: rgb(255, 204, 74);
@@ -288,6 +294,26 @@ a {
   justify-content: center;
   align-items: center;
   margin-left: 0.5rem;
+}
+
+.section-contact {
+  background-color: #ffffff;
+  padding: 5% 20%;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 50rem;
+}
+.contact__left {
+  flex-basis: 40%;
+  margin-right: 5rem;
+}
+.contact__right {
+  background-color: red;
+  flex: 1;
 }
 
 .brands {

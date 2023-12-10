@@ -1,0 +1,26 @@
+.section-contact {
+  background-color: #ffffff;
+  padding: 5% 20%;
+}
+
+.contact {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    // justify-content: center;
+    // background-color: yellow;
+    height: 50rem;
+  }
+
+  &__left{
+    // background-color: blue;
+    flex-basis: 40%;
+    margin-right: 5rem;
+  }
+
+  &__right{
+    background-color: red;
+    flex: 1;
+  }
+}

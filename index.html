@@ -1444,7 +1444,6 @@
           </div>
           <div class="contact__right">
             <form class="contact__form">
-
               <div class="form__group__container">
                 <div class="form__group">
                   <label for="fname" class="form__label">Full Name</label>
@@ -1493,18 +1492,20 @@
                 </div>
               </div>
 
-              <div class="form__group ">
-                <label for="fname" class="form__label">Email</label>
-                <input
-                  type="email"
-                  id="fname"
-                  class="form__input"
-                  placeholder="Johnson@email.com"
+              <div class="form__group form__message">
+                <label for="message" class="form__label">Message</label>
+                <textarea
+                  rows="4"
+                  cols="50"
+                  id="message"
+                  class="form__input form__message--textarea"
+                  placeholder="Briefly tell us about your project and your current goals. How can we help you?"
                   required
-                />
+                >
+This is the default comment...  </textarea
+                >
               </div>
-
-
+              <button class="btn btn--black">Send Message</button>
             </form>
           </div>
         </div>

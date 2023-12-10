@@ -332,11 +332,20 @@ a {
 .contact__right {
   flex: 1;
 }
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .form__group__container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
+}
+.form__group__container:not(:last-child) {
+  margin-bottom: 3rem;
 }
 .form__group__container > * {
   width: 50%;
@@ -345,7 +354,7 @@ a {
   display: block;
   color: #63616a;
   font-family: Lato;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -358,8 +367,11 @@ a {
   border: 1px solid #c1c1c1;
   background: #fff;
 }
+.form__input:focus:invalid {
+  outline: 3px solid red;
+}
 .form__input:focus {
-  outline: 3px solid rgb(255, 204, 74);
+  outline: 3px solid #4eaf4e;
 }
 
 .brands {

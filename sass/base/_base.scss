@@ -27,3 +27,32 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 100rem;
+  // background-color: red;
+}
+
+.bullet__points {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: center;
+
+  svg {
+    width: 19.687px;
+    height: 19.687px;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  span {
+    color: #595566;
+    font-family: Cabin;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%; /* 18.56px */
+  }
+}

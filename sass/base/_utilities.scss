@@ -2,7 +2,7 @@
   color: #fff;
 }
 
-.u-no-margin{
+.u-no-margin {
   margin: 0 !important;
 }
 .margin-right--sm {
@@ -17,15 +17,22 @@
   margin-bottom: 1rem;
 }
 
-.u-margin-bottom--large{
-    margin-bottom: 3rem;
+.u-margin-bottom--large {
+  margin-bottom: 3rem;
 }
 
+.u-margin-top--small{
+  margin-top: 2rem;
+}
 
-.no-margin{
+.no-margin {
   margin: 0;
 }
 
-.text--greeen{
+.text--greeen {
   color: green;
+}
+
+.u-default-body {
+  padding: 0 20%;
 }

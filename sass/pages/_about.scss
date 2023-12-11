@@ -1,3 +1,9 @@
+@use "../abstracts/variables" as *;
+
 .section-vision{
-    overflow: hidden;
+    margin: $default-margin-top;
+}
+
+.bullet__points{
+    
 }

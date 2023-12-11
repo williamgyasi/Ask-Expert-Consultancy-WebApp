@@ -100,21 +100,24 @@
 }
 
 .intro__text {
-  padding: 0.4rem;
-  background-color: $primary-color;
+  padding: 0.4rem 2rem;
   display: inline-block;
-  font-size: 1.1rem;
-  border-radius: 12rem;
+  font-size: 0.9rem;
+  border-radius: 10rem;
   font-family: "Lato";
   font-weight: 400;
   line-height: 147.5%; /* 23.6px */
   letter-spacing: 2.32px;
   text-transform: uppercase;
-  color: $primary-color-03;
   margin-bottom: 1rem;
 
+  &--yellow {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
   &--green {
-    background-color: green;
+    background-color: $primary-color-02;
     color: #fff;
   }
 }

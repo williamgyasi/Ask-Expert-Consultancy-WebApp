@@ -8,29 +8,22 @@ $main-text-stack: "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica",
 $code-font-stack: "Cabin", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
   "Monaco", monospace !default;
 
-
 //COLORS!;
-$primary-color:rgba(255,204,74);
-$primary-color-02:rgba(#4EAF4E,1);
-$primary-color-03:rgb(0, 0, 0);
+$primary-color: rgba(255, 204, 74);
+$primary-color-02: rgba(#4eaf4e, 1);
+$primary-color-03: rgb(0, 0, 0);
 
-$secondary-color:"#F5F5F5";
-$secondary-color-02:rgb(255,255,255);
+$secondary-color: "#F5F5F5";
+$secondary-color-02: rgb(255, 255, 255);
 
-$base-text-color:"#1C1C1C";
-$base-paragraph-color:"#595566";
-
+$base-text-color: "#1C1C1C";
+$base-paragraph-color: rgb(89, 85, 102);
 // GRID
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
 
-
 //BODY
-$default-section-padding:0 20%;
-$default-margin-top:5% 0;
-
-
-
-
+$default-section-padding: 0 20%;
+$default-margin-top: 5% 0;

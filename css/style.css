@@ -30,20 +30,26 @@ a {
   margin: 0 auto;
   max-width: 100rem;
 }
+.container--column {
+  flex-direction: column;
+}
 
 .bullet__points {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+}
+.bullet__points:not(:last-child) {
+  margin-bottom: 1rem;
 }
 .bullet__points svg {
   width: 19.687px;
   height: 19.687px;
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 .bullet__points span {
-  color: #595566;
+  color: rgb(89, 85, 102);
   font-family: Cabin;
   font-size: 1.5rem;
   font-style: normal;
@@ -469,6 +475,7 @@ a {
   flex-direction: column;
   position: relative;
   flex: 1;
+  margin-top: 1rem;
 }
 .about__image__stats {
   position: absolute;

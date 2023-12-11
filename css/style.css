@@ -1032,10 +1032,11 @@ a {
 }
 .header__title {
   position: absolute;
-  background: rgba(255, 255, 255, 0.69);
+  background: rgba(255, 255, 255, 0.838);
   backdrop-filter: blur(5.5px);
-  left: 10%;
-  bottom: 20%;
+  left: 25%;
+  bottom: 25%;
+  width: 40%;
   padding: 4rem 5rem;
   border-radius: 3rem;
 }

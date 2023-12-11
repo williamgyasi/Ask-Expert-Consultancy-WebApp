@@ -23,7 +23,8 @@ main {
 
 .about {
   margin: 5% 0;
-  padding: 0 20%;
+  padding: $default-section-padding;
+
   &__container {
     display: flex;
     flex-direction: row;
@@ -48,6 +49,7 @@ main {
     flex-direction: column;
     position: relative;
     flex: 1;
+    
     &__stats {
       position: absolute;
       border-radius: 20px;

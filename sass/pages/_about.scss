@@ -89,8 +89,8 @@
     border-radius: 1rem;
   }
 
-  &__overlay{
-    background-color: rgba($color: #000000, $alpha: .7);
+  &__overlay {
+    background-color: rgba($color: #000000, $alpha: 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,22 +102,76 @@
     z-index: 99;
   }
 
-  &__button{
+  &__button {
     width: 10rem;
     height: 10rem;
     background-color: #fff;
     border-radius: 50%;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%,-50%);
+    transform: translateX(-50%, -50%);
     z-index: 100;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: pulse 2s infinite;
 
-    svg{
+    svg {
       height: auto;
       width: 30%;
+    }
+  }
+}
+
+.section-team {
+  background-color: $bg-color;
+  padding: 10rem 0;
+}
+
+.team {
+  border-radius: 1rem;
+  display: flex;
+  color: $primary-color-03;
+  //   height: 5rem;
+  margin-top: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  //   background-color: red;
+
+  &__item {
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    width: 30%;
+    // padding: 2rem;
+    border-radius: 1.1rem;
+  }
+
+  &__image {
+    height: 27rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__socials--link {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 1.4rem;
+    }
+    cursor: pointer;
+
+    svg{
+      height: 100%;
+      width: 100%;
     }
   }
 }

@@ -14,11 +14,17 @@
 .u-margin-top--small {
   margin-top: 1rem;
 }
-.u-margin-top--large{
+.u-margin-top--large {
   margin-top: 2rem;
 }
 
-.u-margin-bottom--sm {
+.u-margin-top--small {
+  margin-top: 2rem;
+}
+
+//MARGIN-BOTTOM
+
+.u-margin-bottom--small {
   margin-bottom: 1rem;
 }
 
@@ -26,12 +32,8 @@
   margin-bottom: 3rem;
 }
 
-.u-margin-top--small{
-  margin-top: 2rem;
-}
-
 //TEXT
-.u-text-center{
+.u-text-center {
   text-align: center;
 }
 
@@ -47,14 +49,14 @@
   padding: 0 20%;
 }
 
-.u-space-between{
+.u-space-between {
   justify-content: space-between;
 }
 
 //FLEX
-.flex-justify-center{
+.flex-justify-center {
   justify-content: center;
 }
-.flex-align-center{
+.flex-align-center {
   align-items: center;
 }

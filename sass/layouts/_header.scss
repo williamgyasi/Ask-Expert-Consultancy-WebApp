@@ -41,10 +41,12 @@
 
   &__banner {
     height: 80%;
-    background: url("../assets/herobanner.png");
+    background: url("../assets/about-header.jpeg");
     background-size: cover;
     background-position: top;
     position: relative;
+
+    
 
     &__info {
       position: absolute;
@@ -69,5 +71,17 @@
         line-height: 147.5%;
       }
     }
+  }
+
+  &__title{
+    position: absolute;
+    // background-color: white;
+    background: rgba(255, 255, 255, 0.69);
+    backdrop-filter: blur(5.5px);
+    left: 10%;
+    bottom: 20%;
+    padding: 4rem 5rem;
+    border-radius: 3rem;
+    
   }
 }

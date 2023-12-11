@@ -42,6 +42,7 @@
   color: $primary-color-03;
   //   height: 5rem;
   margin-top: 2rem;
+  align-items: flex-start;
   justify-content: space-between;
 //   background-color: red;
 
@@ -55,7 +56,7 @@
     }
     width: 23%;
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1.1rem;
     &--icon {
       width: 5rem;
       height: 5rem;

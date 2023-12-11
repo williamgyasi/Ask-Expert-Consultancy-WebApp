@@ -37,6 +37,10 @@ a {
   width: 50%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -942,6 +946,7 @@ a {
   display: flex;
   color: rgb(0, 0, 0);
   margin-top: 2rem;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .features__item {
@@ -950,7 +955,7 @@ a {
   background-color: #fff;
   width: 23%;
   padding: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 1.1rem;
 }
 .features__item:not(:last-child) {
   margin-right: 1rem;
@@ -999,7 +1004,7 @@ a {
 }
 .header__banner {
   height: 80%;
-  background: url("../assets/herobanner.png");
+  background: url("../assets/about-header.jpeg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -1024,6 +1029,15 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 147.5%;
+}
+.header__title {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.69);
+  backdrop-filter: blur(5.5px);
+  left: 10%;
+  bottom: 20%;
+  padding: 4rem 5rem;
+  border-radius: 3rem;
 }
 
 .nav {

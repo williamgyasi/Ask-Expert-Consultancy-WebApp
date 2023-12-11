@@ -20,9 +20,8 @@ main {
   //   padding: 0 20%;
 }
 
-// ABOUT US SECTION
+
 .about {
-  //   background-color: red;
   margin: 5% 0;
   padding: 0 20%;
   &__container {
@@ -428,8 +427,8 @@ main {
     // width: 50rem;
     cursor: pointer;
     flex-basis: 48%;
-    
-    &:not(:last-child){
+
+    &:not(:last-child) {
       // background-color: blue;
       margin-right: 3rem;
     }
@@ -475,7 +474,7 @@ main {
     border-top: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
 
-    &>div{
+    & > div {
       display: flex;
       align-items: center;
       justify-content: flex-start;

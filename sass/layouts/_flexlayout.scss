@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+  &.flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+}

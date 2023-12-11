@@ -28,6 +28,18 @@ a {
   text-decoration: none;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+  &--justify{
+    justify-content: space-between;
+  }
+}
+
+.w-50{
+  width: 50%;
+}
+
 .container {
   display: flex;
   margin: 0 auto;

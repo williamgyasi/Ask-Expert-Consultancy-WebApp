@@ -1,16 +1,65 @@
 @use "../abstracts/variables" as *;
 
-.section-vision{
-    margin: $default-margin-top;
+.section-vision {
+  margin: $default-margin-top;
 }
 
+.counter {
+  // margin: 5rem 0;
+  //   background-color: yellow;
+  margin-top: 2rem;
+  width: 50%;
+  &__container {
+    // background-color: red;
+    // width: 4rem;
+    padding: 1rem;
 
-.counter{
-    // margin: 5rem 0;
-    background-color: yellow;
-    margin-top: 1rem;
-    &__container{
-        background-color: red;
-        width: 4rem;
+    h4 {
+      color: #181818;
+      font-family: Cabin;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 116%; /* 58px */
     }
+    span {
+      color: #181818;
+      font-family: Cabin;
+      font-size: 1.1rem;
+      display: inline-block; /* 20.88px */
+    }
+  }
+}
+
+.section-features {
+  background-color: $bg-color;
+  padding: 6rem 0;
+}
+
+.features {
+  border-radius: 1rem;
+  display: flex;
+  color: $primary-color-03;
+  //   height: 5rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+//   background-color: red;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    width: 23%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    &--icon {
+      width: 5rem;
+      height: 5rem;
+      margin-bottom: 2rem;
+    }
+  }
 }

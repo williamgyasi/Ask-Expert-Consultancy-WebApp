@@ -25,6 +25,18 @@ a {
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex--justify {
+  justify-content: space-between;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -95,6 +107,10 @@ a {
 
 .u-default-body {
   padding: 0 20%;
+}
+
+.u-space-between {
+  justify-content: space-between;
 }
 
 .heading-01 {
@@ -229,7 +245,7 @@ a {
 }
 .intro__text--yellow {
   background-color: rgb(255, 204, 74);
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .intro__text--green {
   background-color: #4eaf4e;
@@ -239,7 +255,6 @@ a {
 .btn, .btn:link, .btn:visited {
   border-radius: 42px;
   display: inline-block;
-  color: rgb(255, 255, 255);
   font-family: "Lato";
   font-size: 1.4rem;
   font-style: normal;
@@ -269,11 +284,21 @@ a {
 }
 .btn--icon {
   background-color: #fff;
-  padding: 8px 10px;
   color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.6rem;
+}
+.btn--icon > span {
+  margin-left: 0.6rem;
+  margin-top: 1rem;
+}
+.btn--icon > span > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.btn--text {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 8px 10px;
 }
 .btn--group {
   display: flex;
@@ -886,12 +911,54 @@ a {
 }
 
 .counter {
-  background-color: yellow;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  width: 50%;
 }
 .counter__container {
-  background-color: red;
-  width: 4rem;
+  padding: 1rem;
+}
+.counter__container h4 {
+  color: #181818;
+  font-family: Cabin;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 58px */
+}
+.counter__container span {
+  color: #181818;
+  font-family: Cabin;
+  font-size: 1.1rem;
+  display: inline-block; /* 20.88px */
+}
+
+.section-features {
+  background-color: rgb(225, 225, 225);
+  padding: 6rem 0;
+}
+
+.features {
+  border-radius: 1rem;
+  display: flex;
+  color: rgb(0, 0, 0);
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.features__item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 23%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.features__item:not(:last-child) {
+  margin-right: 1rem;
+}
+.features__item--icon {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 2rem;
 }
 
 .header {

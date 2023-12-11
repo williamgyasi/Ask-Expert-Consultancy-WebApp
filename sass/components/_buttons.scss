@@ -6,10 +6,11 @@
   &:visited {
     border-radius: 42px;
     display: inline-block;
-    color: $secondary-color-02;
+    // color: $secondary-color-02;
     font-family: "Lato";
     font-size: 1.4rem;
     font-style: normal;
+
     font-weight: 600;
     cursor: pointer;
     line-height: 160%; /* 28.8px */
@@ -39,11 +40,24 @@
 
   &--icon {
     background-color: #fff;
-    padding: 8px 10px;
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.6rem;
+
+    & > span {
+      margin-left: 0.6rem;
+      margin-top: 1rem;
+
+      & > svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+
+  &--text {
+    color: $primary-color-03;
+    background-color: transparent;
+    padding: 8px 10px;
   }
 
   &--group {

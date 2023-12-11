@@ -44,6 +44,12 @@ a {
   width: 80%;
 }
 
+.w-100{
+  width: 100%;
+}
+
+
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -52,6 +58,7 @@ a {
 
   &--column{
     flex-direction: column;
+    
   }
 }
 

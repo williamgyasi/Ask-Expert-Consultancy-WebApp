@@ -69,9 +69,55 @@
   padding: 10rem 0;
 }
 
-.history{
+.history {
+  &__video {
+    position: relative;
+    width: 90%;
+    color: #181818;
+    // background-color: red;
+    height: 35rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    z-index: 10;
+    overflow: hidden;
+  }
 
-    &__video{
-        position: relative;
+  &__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  &__overlay{
+    background-color: rgba($color: #000000, $alpha: .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: 99;
+  }
+
+  &__button{
+    width: 10rem;
+    height: 10rem;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+      height: auto;
+      width: 30%;
     }
+  }
 }

@@ -3,3 +3,14 @@
 .section-vision{
     margin: $default-margin-top;
 }
+
+
+.counter{
+    // margin: 5rem 0;
+    background-color: yellow;
+    margin-top: 1rem;
+    &__container{
+        background-color: red;
+        width: 4rem;
+    }
+}

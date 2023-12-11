@@ -436,6 +436,17 @@ a {
   height: 18rem;
 }
 
+.image__container {
+  width: auto;
+  height: 300px;
+  border-radius: 2.8rem;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.8rem;
+}
+
 .brands {
   width: 90%;
   max-width: 100%;
@@ -872,6 +883,15 @@ a {
 
 .section-vision {
   margin: 5% 0;
+}
+
+.counter {
+  background-color: yellow;
+  margin-top: 1rem;
+}
+.counter__container {
+  background-color: red;
+  width: 4rem;
 }
 
 .header {

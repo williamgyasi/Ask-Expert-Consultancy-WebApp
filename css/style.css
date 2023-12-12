@@ -62,17 +62,12 @@ a {
   flex-direction: column;
 }
 
-.bullet__points {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
 .bullet__points:not(:last-child) {
   margin-bottom: 1rem;
 }
 .bullet__points svg {
-  width: 19.687px;
-  height: 19.687px;
+  width: 1rem;
+  height: 1rem;
   display: inline-block;
   margin-right: 0.8rem;
 }
@@ -81,6 +76,7 @@ a {
   font-family: Cabin;
   font-size: 1.5rem;
   font-style: normal;
+  display: inline-block;
   font-weight: 400;
   line-height: 116%; /* 18.56px */
 }
@@ -246,6 +242,9 @@ a {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400; /* 23.6px */
+}
+.subtitle--inline {
+  display: inline-block;
 }
 .subtitle--points {
   font-size: 1.1rem;
@@ -1117,6 +1116,14 @@ a {
   width: 100%;
 }
 
+.section-process {
+  padding: 6rem 0;
+}
+
+.process__image {
+  flex-basis: 80%;
+  margin-right: 6rem;
+}
 .header {
   height: 100vh;
   width: 100vw;

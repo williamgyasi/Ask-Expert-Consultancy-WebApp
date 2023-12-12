@@ -71,6 +71,10 @@
     font-weight: 400; /* 23.6px */
   }
 
+  &--inline{
+    display: inline-block;
+  }
+
   &--points {
     font-size: 1.1rem;
     font-style: normal;

@@ -1129,6 +1129,17 @@ a {
 }
 .header__banner {
   height: 80%;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.header__banner--index {
+  background: url("../assets/herobanner.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.header__banner--about {
   background: url("../assets/about-header.jpeg");
   background-size: cover;
   background-position: top;

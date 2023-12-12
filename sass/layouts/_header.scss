@@ -41,12 +41,24 @@
 
   &__banner {
     height: 80%;
-    background: url("../assets/about-header.jpeg");
+    // background: url("../assets/about-header.jpeg");
     background-size: cover;
     background-position: top;
     position: relative;
 
-    
+    &--index {
+      background: url("../assets/herobanner.png");
+      background-size: cover;
+      background-position: top;
+      position: relative;
+    }
+
+    &--about {
+      background: url("../assets/about-header.jpeg");
+      background-size: cover;
+      background-position: top;
+      position: relative;
+    }
 
     &__info {
       position: absolute;
@@ -73,7 +85,7 @@
     }
   }
 
-  &__title{
+  &__title {
     position: absolute;
     // background-color: white;
     background: rgba(255, 255, 255, 0.838);
@@ -83,6 +95,5 @@
     width: 40%;
     padding: 4rem 5rem;
     border-radius: 3rem;
-    
   }
 }

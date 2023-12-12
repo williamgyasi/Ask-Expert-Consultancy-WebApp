@@ -60,6 +60,13 @@
       position: relative;
     }
 
+    &--service {
+      background: url("../assets/header-service.jpeg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
     &__info {
       position: absolute;
       left: 10%;

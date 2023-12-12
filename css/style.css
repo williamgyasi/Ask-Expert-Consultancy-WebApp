@@ -1171,6 +1171,12 @@ a {
   background-position: top;
   position: relative;
 }
+.header__banner--service {
+  background: url("../assets/header-service.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 .header__banner__info {
   position: absolute;
   left: 10%;

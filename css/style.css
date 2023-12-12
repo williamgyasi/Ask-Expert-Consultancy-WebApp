@@ -1020,11 +1020,17 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
+  width: 0;
+  opacity: 0;
   top: 0%;
   right: 0%;
   left: 0%;
   bottom: 0%;
   z-index: 99;
+}
+.history__overlay.show {
+  width: 100%;
+  opacity: 1;
 }
 .history__button {
   width: 10rem;
@@ -1035,6 +1041,7 @@ a {
   left: 50%;
   transform: translateX(-50%, -50%);
   z-index: 100;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;

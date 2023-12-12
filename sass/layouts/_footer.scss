@@ -1,3 +1,4 @@
+@use "../abstracts/variables" as *;
 .footer {
   background-image: url("../../assets/footer-bg.png");
   background-position: center;
@@ -7,7 +8,7 @@
   position: relative;
 
   &__overlay {
-    filter: blur(0.2rem);
+    filter: blur(3);
     position: absolute;
     top: 0;
     right: 0;
@@ -18,22 +19,70 @@
     z-index: 100;
   }
 
-  &__container{
+  &__container {
     position: relative;
     z-index: 200;
   }
 
-  &__logo{
+  &__logo {
     color: #fff;
-
-    svg{
-        margin-right: .4rem;
-        width: 2rem;
-        height: 2rem;
+    border-right: 2px solid #fff;
+    padding-right: 5rem;
+    // padding-bottom: 10rem;
+    svg {
+      margin-right: 0.4rem;
+      width: 2rem;
+      height: 2rem;
     }
+  }
 
-    h4{
-        display: inline-block;
+  &__listcontainer {
+    padding-left: 4rem;
+
+    &--title {
+      position: relative;
+      color: #fff;
+      cursor: pointer;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 0.5rem;
+        width: 5rem;
+        opacity: 1;
+        background-color: $primary-color;
+        bottom: -1rem;
+        transition: all 1s;
+
+        &:hover {
+          // width: 5rem;
+        //   color: red;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &__list {
+    margin-top: 1.4rem;
+    list-style: circle;
+    color: #fff;
+    margin-left: 0.5rem;
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        transition: all 1s;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
     }
   }
 }

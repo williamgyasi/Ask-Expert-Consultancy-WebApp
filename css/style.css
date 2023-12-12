@@ -145,6 +145,14 @@ a {
   align-items: center;
 }
 
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
 .heading-01 {
   font-weight: 600;
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -1252,7 +1260,7 @@ a {
   position: relative;
 }
 .footer__overlay {
-  filter: blur(0.2rem);
+  filter: blur(3);
   position: absolute;
   top: 0;
   right: 0;
@@ -1268,14 +1276,52 @@ a {
 }
 .footer__logo {
   color: #fff;
+  border-right: 2px solid #fff;
+  padding-right: 5rem;
 }
 .footer__logo svg {
   margin-right: 0.4rem;
   width: 2rem;
   height: 2rem;
 }
-.footer__logo h4 {
-  display: inline-block;
+.footer__listcontainer {
+  padding-left: 4rem;
+}
+.footer__listcontainer--title {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+.footer__listcontainer--title::before {
+  position: absolute;
+  content: "";
+  height: 0.5rem;
+  width: 5rem;
+  opacity: 1;
+  background-color: rgb(255, 204, 74);
+  bottom: -1rem;
+  transition: all 1s;
+}
+.footer__listcontainer--title::before:hover {
+  opacity: 1;
+}
+.footer__list {
+  margin-top: 1.4rem;
+  list-style: circle;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.footer__list li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.footer__list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  transition: all 1s;
+}
+.footer__list li a:hover {
+  color: rgb(255, 204, 74);
 }
 
 /*# sourceMappingURL=style.css.map */

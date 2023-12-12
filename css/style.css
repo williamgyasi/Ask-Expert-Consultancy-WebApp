@@ -1243,4 +1243,11 @@ a {
   width: 40%;
 }
 
+.footer {
+  background: url("../../assets/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 20rem 0;
+}
+
 /*# sourceMappingURL=style.css.map */

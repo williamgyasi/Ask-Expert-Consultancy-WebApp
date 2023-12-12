@@ -77,7 +77,7 @@ a {
 .bullet__points svg {
   width: 4rem;
   height: 4rem;
-  margin-right: 0.8rem;
+  margin-right: 1.4rem;
 }
 .bullet__points span {
   color: rgb(89, 85, 102);
@@ -1130,7 +1130,7 @@ a {
 }
 
 .section-process {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 
 .process__image {

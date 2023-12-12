@@ -1296,13 +1296,14 @@ a {
   position: absolute;
   content: "";
   height: 0.5rem;
-  width: 5rem;
-  opacity: 1;
+  width: 0;
+  opacity: 0;
   background-color: rgb(255, 204, 74);
   bottom: -1rem;
   transition: all 1s;
 }
-.footer__listcontainer--title::before:hover {
+.footer__listcontainer--title:hover::before {
+  width: 5rem;
   opacity: 1;
 }
 .footer__list {
@@ -1322,6 +1323,13 @@ a {
 }
 .footer__list li a:hover {
   color: rgb(255, 204, 74);
+}
+.footer__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  width: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */

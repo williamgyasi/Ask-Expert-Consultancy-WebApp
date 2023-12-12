@@ -48,17 +48,18 @@
         position: absolute;
         content: "";
         height: 0.5rem;
-        width: 5rem;
-        opacity: 1;
+        // width: 5rem;
+        width: 0;
+        // opacity: 1;
+        opacity: 0;
         background-color: $primary-color;
         bottom: -1rem;
         transition: all 1s;
+      }
 
-        &:hover {
-          // width: 5rem;
-        //   color: red;
-          opacity: 1;
-        }
+      &:hover::before {
+        width: 5rem;
+        opacity: 1;
       }
     }
   }
@@ -84,5 +85,13 @@
         }
       }
     }
+  }
+
+  &__lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    width: 60%;
   }
 }

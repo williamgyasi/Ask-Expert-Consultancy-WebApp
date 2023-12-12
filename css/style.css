@@ -1278,6 +1278,7 @@ a {
   color: #fff;
   border-right: 2px solid #fff;
   padding-right: 5rem;
+  flex-basis: 30%;
 }
 .footer__logo svg {
   margin-right: 0.4rem;
@@ -1328,8 +1329,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
-  width: 60%;
+  flex: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

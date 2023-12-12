@@ -56,7 +56,7 @@ a {
 .container {
   display: flex;
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: 90rem;
 }
 .container--column {
   flex-direction: column;
@@ -1248,7 +1248,7 @@ a {
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  padding: 20rem 0;
+  padding: 8rem 0;
   position: relative;
 }
 .footer__overlay {
@@ -1259,7 +1259,23 @@ a {
   left: 0;
   bottom: 0;
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.8;
+  z-index: 100;
+}
+.footer__container {
+  position: relative;
+  z-index: 200;
+}
+.footer__logo {
+  color: #fff;
+}
+.footer__logo svg {
+  margin-right: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}
+.footer__logo h4 {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

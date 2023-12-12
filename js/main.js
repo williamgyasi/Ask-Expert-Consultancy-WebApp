@@ -5,11 +5,11 @@ const history__video = document.getElementById("history__video");
 //PLAY VIDEO
 play__button.addEventListener("click", (e) => {
   if (history__video.paused) {
-    handlePlayButton()
+    handlePlayButton(history__video)
   }
 });
 
-function handlePlayButton() {
-  history__video.play();
+function handlePlayButton(video) {
+  video.play();
   video__overlay.classList.remove("show");
 }

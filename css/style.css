@@ -1240,7 +1240,6 @@ a {
 .header {
   height: 100vh;
   width: 100vw;
-  background-color: red;
 }
 .header__hero {
   height: 100%;
@@ -1296,6 +1295,13 @@ a {
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.header__banner--servicesingle {
+  background: url("../assets/service-single-headers.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 60%;
 }
 .header__banner__info {
   position: absolute;

@@ -30,7 +30,22 @@
   &__item{
     background-color: #fff;
     height: 40rem;
-    padding: 5rem;
+    padding: 1.5rem 1rem;
     border-radius: 1rem;
+    // flex-basis: 90%;
+  }
+
+  &__header{
+    background-color: black;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 1rem;
+
+    p{
+      color: #fff;
+      width: 95%;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
   }
 }

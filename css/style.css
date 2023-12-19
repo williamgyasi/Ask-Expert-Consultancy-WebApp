@@ -1151,8 +1151,20 @@ a {
 .pricing__item {
   background-color: #fff;
   height: 40rem;
-  padding: 5rem;
+  padding: 1.5rem 1rem;
   border-radius: 1rem;
+}
+.pricing__header {
+  background-color: black;
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1rem;
+}
+.pricing__header p {
+  color: #fff;
+  width: 95%;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .header {

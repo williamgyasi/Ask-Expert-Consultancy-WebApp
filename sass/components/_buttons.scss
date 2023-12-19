@@ -77,6 +77,36 @@
     align-items: center;
     margin-top: 1rem;
   }
+
+  &--ghost {
+    border: 1px solid rgba(24, 24, 24, 1);
+    border-radius: 3rem;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    color: black;
+    transition: all 0.5s linear;
+
+    &:hover {
+      background-color: rgba(24, 24, 24, 1);
+      border: 2px solid $primary-color;
+      color: #fff;
+    }
+  }
+  &--ghostgreen {
+    // border: 1px solid rgba(24, 24, 24, 1);
+    background-color: $primary-color;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    color: black;
+    transition: all 0.5s linear;
+
+    &:hover {
+      background-color: rgba(24, 24, 24, 1);
+      border: 2px solid $primary-color;
+      color: #fff;
+    }
+  }
 }
 
 .icon__button {

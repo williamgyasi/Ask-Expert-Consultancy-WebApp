@@ -57,6 +57,7 @@ a {
   display: flex;
   margin: 0 auto;
   max-width: 90rem;
+  background-color: red;
 }
 .container--column {
   flex-direction: column;
@@ -306,7 +307,7 @@ a {
 .intro__text--grey {
   background-color: rgb(62, 62, 62);
   color: #fff;
-  margin: 0;
+  margin-bottom: 0;
 }
 .intro__text--green {
   background-color: #4eaf4e;
@@ -1152,22 +1153,24 @@ a {
 }
 
 .pricing__container {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  background-color: red;
 }
 .pricing__item {
   background-color: #fff;
   height: 40rem;
   padding: 1.5rem 1rem;
   border-radius: 1rem;
+  flex-basis: 33.3333333333%;
+}
+.pricing__item:not(:last-child) {
+  margin-right: 2rem;
 }
 .pricing__header {
   background-color: black;
   border-radius: 1rem;
   color: #fff;
-  padding: 1rem;
+  padding: 3rem;
 }
 .pricing__header p {
   color: #fff;
@@ -1179,6 +1182,22 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.pricing__features {
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  list-style-type: none;
+}
+.pricing__features svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.pricing__features li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.4rem;
 }
 
 .header {

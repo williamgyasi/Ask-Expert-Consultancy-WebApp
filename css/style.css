@@ -118,6 +118,10 @@ a {
   margin-top: 2rem;
 }
 
+.u-margin-left--small {
+  margin-left: 1rem;
+}
+
 .u-margin-bottom--small {
   margin-bottom: 2rem;
 }
@@ -298,6 +302,11 @@ a {
 .intro__text--yellow {
   background-color: rgb(255, 204, 74);
   color: rgb(0, 0, 0);
+}
+.intro__text--grey {
+  background-color: rgb(62, 62, 62);
+  color: #fff;
+  margin: 0;
 }
 .intro__text--green {
   background-color: #4eaf4e;
@@ -1165,6 +1174,11 @@ a {
   width: 95%;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+}
+.pricing__price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header {

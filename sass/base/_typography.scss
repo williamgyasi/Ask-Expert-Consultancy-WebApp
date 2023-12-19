@@ -120,6 +120,12 @@
     color: $primary-color-03;
   }
 
+  &--grey{
+    background-color: rgba(62, 62, 62, 1);
+    color: #fff;
+    margin: 0;
+  }
+
   &--green {
     background-color: $primary-color-02;
     color: #fff;

@@ -1,17 +1,26 @@
+@use "../abstracts/variables" as *;
 .section-process {
-//   background-color: $bg-color;
+  //   background-color: $bg-color;
   padding: 10rem 0;
 }
 
-.process{
+.process {
+  &__image {
+    flex-basis: 80%;
+    margin-right: 6rem;
+  }
 
+  &__details {
+  }
+}
 
-    &__image{
-        flex-basis: 80%;
-        margin-right: 6rem;
-    }
+.section-pricing {
+  background-color: $bg-color;
+  padding: 5% 20%;
+}
 
-    &__details{
-     
-    }
+.pricing{
+  &__container{
+    
+  }
 }

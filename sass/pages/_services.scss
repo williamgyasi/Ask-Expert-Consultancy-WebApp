@@ -22,7 +22,7 @@
 .pricing {
   &__container {
     width: 100%;
-    background-color: red;
+    // background-color: red;
   }
 
   &__item {
@@ -31,6 +31,10 @@
     padding: 1.5rem 1rem;
     border-radius: 1rem;
     // width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: flex-start;
     flex-basis: calc(100% / 3);
 
     &:not(:last-child) {
@@ -75,6 +79,10 @@
       flex-direction: row;
       align-items: center;
       font-size: 1.4rem;
+
+      &:not(:last-child){
+        margin-bottom: 1rem;
+      }
     }
   }
 }

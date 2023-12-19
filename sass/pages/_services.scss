@@ -21,6 +21,16 @@
 
 .pricing{
   &__container{
-    
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item{
+    background-color: #fff;
+    height: 40rem;
+    padding: 5rem;
+    border-radius: 1rem;
   }
 }

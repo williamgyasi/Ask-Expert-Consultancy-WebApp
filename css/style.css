@@ -1142,6 +1142,19 @@ a {
   padding: 5% 20%;
 }
 
+.pricing__container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pricing__item {
+  background-color: #fff;
+  height: 40rem;
+  padding: 5rem;
+  border-radius: 1rem;
+}
+
 .header {
   height: 100vh;
   width: 100vw;

@@ -4,20 +4,23 @@
 .heading-05{
   font-weight: 500;
   font-family: "Cabin", $main-text-stack;
-  color: $base-text-color;
   font-style: normal;
   line-height: 1;
   font-size: 5rem
+
+}
+
+.heading--white{
+  color: #fff;
 }
 
 .heading-04{
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Cabin", $main-text-stack;
-  color: $base-text-color;
-  font-style: normal;
   line-height: 1;
   font-size: 4rem
 }
+
 
 .heading-01 {
   @include baseHeadingStyles();
@@ -34,10 +37,6 @@
   font-size: 4rem;
 }
 
-.heading-04 {
-  @include baseHeadingStyles();
-  font-size: 3.5rem;
-}
 
 
 .heading-06 {

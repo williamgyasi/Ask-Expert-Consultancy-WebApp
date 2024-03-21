@@ -16,8 +16,6 @@
   }
 }
 
-
-
 .about {
   margin: 5% 0;
   padding: $default-section-padding;
@@ -25,12 +23,17 @@
   &__container {
     display: flex;
     flex-direction: row;
+    // background-color: yellow;
   }
 
   &__details {
     flex: 0 0 45%;
-    background-color: red;
+    // background-color: red;
     margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
 
     &__subtitle {
       font-size: 1.2rem;
@@ -45,7 +48,7 @@
     flex: 1;
     background-color: blue;
     margin-top: 1rem;
-    
+
     &__stats {
       position: absolute;
       border-radius: 20px;
@@ -73,35 +76,38 @@
 }
 
 .stats {
-  border-top: 1px solid #d8d8d8;
-  border-bottom: 1px solid #d8d8d8;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 1rem;
-  padding: 1rem 0;
-  justify-content: space-between;
+  &__container {
+    border-top: 1px solid #d8d8d8;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    justify-content: space-between;
+  }
 
   &__item {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
     background: #f6f6f6;
     padding: 1.1rem 2rem;
+    flex-wrap: wrap;
+    h3{
+      display: inline-block;
+    }
+    p{
+      display: block;
+    }
     svg {
       display: inline-block;
       vertical-align: sub;
       margin-right: 1rem;
-    }
-    h3 {
-      display: inline-block;
-      font-size: 3rem;
-    }
-    p {
-      color: #181818;
-      font-family: Lato;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 147.5%;
     }
   }
 }

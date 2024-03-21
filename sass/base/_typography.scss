@@ -7,6 +7,7 @@
 }
 
 .heading-05 {
+  @extend .base-heading-styles;
   font-weight: 500;
   font-size: 5rem;
 }
@@ -27,12 +28,39 @@
   color: #ffffff;
 }
 
+.heading--caps{
+  text-transform: uppercase;
+}
+
 .subtitle{
   font-size: 1.5rem;
   font-weight: 300;
+
+  &--large{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &--medium{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 
   &--white{
     color: #fff;
   }
 }
 
+
+.intro__text{
+  padding: .5rem;
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+}

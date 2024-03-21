@@ -123,7 +123,7 @@ a {
 }
 
 .u-margin-bottom--small {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .u-margin-bottom--large {
@@ -166,7 +166,7 @@ a {
   display: inline-block;
 }
 
-.base-heading-styles, .heading-03, .heading-04 {
+.base-heading-styles, .heading-03, .heading-04, .heading-05 {
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   line-height: 1;
@@ -191,12 +191,37 @@ a {
   color: #ffffff;
 }
 
+.heading--caps {
+  text-transform: uppercase;
+}
+
 .subtitle {
   font-size: 1.5rem;
   font-weight: 300;
 }
+.subtitle--large {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.subtitle--medium {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 .subtitle--white {
   color: #fff;
+}
+
+.intro__text {
+  padding: 0.5rem;
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
 }
 
 .btn, .btn:link, .btn:visited {
@@ -475,8 +500,10 @@ a {
 }
 .about__details {
   flex: 0 0 45%;
-  background-color: red;
   margin-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about__details__subtitle {
   font-size: 1.2rem;
@@ -514,8 +541,9 @@ a {
   left: -2rem;
 }
 
-.stats {
+.stats__container {
   border-top: 1px solid #d8d8d8;
+  width: 100%;
   border-bottom: 1px solid #d8d8d8;
   display: flex;
   flex-direction: row;
@@ -525,26 +553,26 @@ a {
   justify-content: space-between;
 }
 .stats__item {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   border-radius: 15px;
   background: #f6f6f6;
   padding: 1.1rem 2rem;
+  flex-wrap: wrap;
+}
+.stats__item h3 {
+  display: inline-block;
+}
+.stats__item p {
+  display: block;
 }
 .stats__item svg {
   display: inline-block;
   vertical-align: sub;
   margin-right: 1rem;
-}
-.stats__item h3 {
-  display: inline-block;
-  font-size: 3rem;
-}
-.stats__item p {
-  color: #181818;
-  font-family: Lato;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 147.5%;
 }
 
 .services {

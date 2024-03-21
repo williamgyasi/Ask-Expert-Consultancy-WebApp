@@ -23,3 +23,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+//MEDIA QUEERY MANAGER
+
+//1600 rem /16=
+
+@mixin respond ($breakpoint){
+    @if $breakpoint==phone{
+        @media (max-width:37.5em){@content}
+    }
+}

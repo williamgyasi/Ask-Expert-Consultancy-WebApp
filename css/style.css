@@ -578,15 +578,6 @@ a {
   background-color: rgb(225, 225, 225);
   padding: 5% 20%;
 }
-.services__container {
-  text-align: center;
-}
-.services__container h4 {
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  text-align: center !important;
-}
 .services__list {
   display: flex;
   flex-wrap: wrap;

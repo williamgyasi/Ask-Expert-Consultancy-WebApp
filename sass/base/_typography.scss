@@ -24,6 +24,12 @@
   font-size: 3rem;
 }
 
+.heading-02 {
+  font-weight: 300;
+  @extend .base-heading-styles;
+  font-size: 2rem;
+}
+
 .heading--white {
   color: #ffffff;
 }
@@ -39,7 +45,6 @@
   &--large{
     font-size: 2rem;
     font-weight: 700;
-    text-align: center;
   }
 
   &--medium{

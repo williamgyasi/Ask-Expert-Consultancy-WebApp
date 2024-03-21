@@ -124,6 +124,12 @@
   justify-content: center;
   }
 
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -136,10 +142,10 @@
   &__listitem {
     border-radius: 20px;
     background: #ebebeb;
-    padding: 30px 37px;
-    text-align: left;
-    width: 285px;
-    margin-right: 0.5rem;
+    padding: 20px 30px;
+    width: 270px;
+    height: 15rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
     transition: all 0.4s linear;
@@ -149,9 +155,6 @@
     }
     &:hover p {
       color: #fff;
-    }
-    h3 {
-      font-size: 2rem;
     }
     p {
       color: #595566;

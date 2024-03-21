@@ -166,7 +166,7 @@ a {
   display: inline-block;
 }
 
-.base-heading-styles, .heading-03, .heading-04, .heading-05 {
+.base-heading-styles, .heading-02, .heading-03, .heading-04, .heading-05 {
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   line-height: 1;
@@ -187,6 +187,11 @@ a {
   font-size: 3rem;
 }
 
+.heading-02 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
 .heading--white {
   color: #ffffff;
 }
@@ -202,7 +207,6 @@ a {
 .subtitle--large {
   font-size: 2rem;
   font-weight: 700;
-  text-align: center;
 }
 .subtitle--medium {
   font-size: 1.5rem;
@@ -584,6 +588,11 @@ a {
   align-items: center;
   justify-content: center;
 }
+.services__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .services__list {
   display: flex;
   flex-wrap: wrap;
@@ -594,10 +603,10 @@ a {
 .services__listitem {
   border-radius: 20px;
   background: #ebebeb;
-  padding: 30px 37px;
-  text-align: left;
-  width: 285px;
-  margin-right: 0.5rem;
+  padding: 20px 30px;
+  width: 270px;
+  height: 15rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   cursor: pointer;
   transition: all 0.4s linear;
@@ -608,9 +617,6 @@ a {
 }
 .services__listitem:hover p {
   color: #fff;
-}
-.services__listitem h3 {
-  font-size: 2rem;
 }
 .services__listitem p {
   color: #595566;

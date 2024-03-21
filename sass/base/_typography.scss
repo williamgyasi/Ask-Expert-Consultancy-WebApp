@@ -1,147 +1,23 @@
 @use "../abstracts" as *;
 
-
-.heading-05{
-  font-weight: 500;
+.base-heading-styles {
   font-family: "Cabin", $main-text-stack;
   font-style: normal;
   line-height: 1;
-  font-size: 5rem
-
 }
 
-.heading--white{
-  color: #fff;
-}
-
-.heading-04{
-  font-weight: 400;
-  font-family: "Cabin", $main-text-stack;
-  line-height: 1;
-  font-size: 4rem
-}
-
-
-.heading-01 {
-  @include baseHeadingStyles();
+.heading-05 {
+  font-weight: 500;
   font-size: 5rem;
 }
 
-.heading-02 {
-  @include baseHeadingStyles();
-  font-size: 4.5rem;
-}
-
-.heading-03 {
-  @include baseHeadingStyles();
+.heading-04 {
+  font-weight: 400;
+  @extend .base-heading-styles;
   font-size: 4rem;
 }
 
-
-
-.heading-06 {
-  @include baseHeadingStyles();
-  font-size: 2rem;
+.heading--white {
+  color: #ffffff;
 }
 
-.heading--sm {
-  color: #181818;
-  font-family: Cabin;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 116%;
-}
-
-.heading--lg {
-  color: #181818;
-  font-family: Cabin;
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 116%;
-}
-
-.text-points {
-  color: #595566;
-  font-family: Cabin;
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 116%; /* 18.56px */
-}
-
-.subtitle {
-  color: rgba($color: #595566, $alpha: 1);
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 400;
-  margin-top: 0.8rem;
-  line-height: 147.5%;
-
-  &--small {
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400; /* 23.6px */
-  }
-
-  &--inline{
-    display: inline-block;
-  }
-
-  &--points {
-    font-size: 1.1rem;
-    font-style: normal;
-  }
-
-  &--primary {
-    color: $primary-color;
-  }
-
-  &--sm {
-    font-size: 1.4rem;
-    color: #fff;
-  }
-
-  &--white {
-    color: white;
-  }
-  &--black {
-    color: #000;
-    font-weight: 700;
-    font-size: 2rem;
-  }
-  &--green {
-    color: green;
-    font-weight: 700;
-  }
-}
-
-.intro__text {
-  padding: 0.4rem 2rem;
-  display: inline-block;
-  font-size: 0.9rem;
-  border-radius: 10rem;
-  font-family: "Lato";
-  font-weight: 400;
-  line-height: 147.5%; /* 23.6px */
-  letter-spacing: 2.32px;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-
-  &--yellow {
-    background-color: $primary-color;
-    color: $primary-color-03;
-  }
-
-  &--grey{
-    background-color: rgba(62, 62, 62, 1);
-    color: #fff;
-    margin-bottom: 0;
-  }
-
-  &--green {
-    background-color: $primary-color-02;
-    color: #fff;
-  }
-}

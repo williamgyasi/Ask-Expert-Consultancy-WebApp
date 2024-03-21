@@ -492,7 +492,7 @@ a {
 
 .about {
   margin: 5% 0;
-  padding: 4rem 20rem;
+  padding: 4rem 25rem;
 }
 .about__container {
   display: flex;
@@ -514,7 +514,6 @@ a {
   flex-direction: column;
   position: relative;
   flex: 1;
-  background-color: blue;
   margin-top: 1rem;
 }
 .about__image__stats {

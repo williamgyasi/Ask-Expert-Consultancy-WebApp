@@ -4,15 +4,27 @@
   &,
   &:link,
   &:visited {
-    border-radius: 42px;
-    display: inline-block;
-    // color: $secondary-color-02;
-    font-family: "Lato";
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.5rem;
+    padding:.5rem;
     cursor: pointer;
-    line-height: 160%; /* 28.8px */
+    transition: all .6s ;
+  }
+
+  &__icon{
+    background-color: #fff;
+    font-size: 1.4rem;   
+    &--text{
+      font-size: inherit;
+      margin-left: .5rem;
+      font-weight: 500;
+    }
+  }
+
+  &:active{
+    transform: translateY(-2rem);
   }
 
   &--black {
@@ -109,21 +121,3 @@
   }
 }
 
-.icon__button {
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 41px 8px 10px;
-  border-radius: 12rem;
-  cursor: pointer;
-
-  &text {
-    color: #353535d3;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-  }
-}

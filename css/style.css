@@ -187,14 +187,25 @@ a {
 }
 
 .btn, .btn:link, .btn:visited {
-  border-radius: 42px;
-  display: inline-block;
-  font-family: "Lato";
-  font-size: 1.4rem;
-  font-style: normal;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+  padding: 0.5rem;
   cursor: pointer;
-  line-height: 160%; /* 28.8px */
+  transition: all 0.6s;
+}
+.btn__icon {
+  background-color: #fff;
+  font-size: 1.4rem;
+}
+.btn__icon--text {
+  font-size: inherit;
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+.btn:active {
+  transform: translateY(-2rem);
 }
 .btn--black {
   padding: 10px 22px;
@@ -276,24 +287,6 @@ a {
   background-color: rgb(24, 24, 24);
   border: 2px solid rgb(255, 204, 74);
   color: #fff;
-}
-
-.icon__button {
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 41px 8px 10px;
-  border-radius: 12rem;
-  cursor: pointer;
-}
-.icon__buttontext {
-  color: rgba(53, 53, 53, 0.8274509804);
-  font-family: Lato;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 160%;
 }
 
 .swiper {
@@ -1146,9 +1139,9 @@ a {
   margin-right: 1rem;
 }
 .header__banner {
-  height: 80%;
+  height: 75%;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   position: relative;
 }
 .header__banner--index {

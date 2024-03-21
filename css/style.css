@@ -588,7 +588,7 @@ a {
 
 .about {
   margin: 5% 0;
-  padding: 0 20%;
+  padding: 20rem;
 }
 .about__container {
   display: flex;
@@ -1245,12 +1245,11 @@ a {
   height: 100%;
 }
 .header__topsection {
-  height: 5%;
   background-color: rgb(0, 0, 0);
   color: #fff;
   display: flex;
   flex-direction: row;
-  padding: 0.5rem;
+  padding: 1rem;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -1350,7 +1349,6 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-right: 3rem;
 }
 .nav__links {
   list-style-type: none;

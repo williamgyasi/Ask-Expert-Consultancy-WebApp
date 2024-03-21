@@ -578,6 +578,11 @@ a {
   background-color: rgb(225, 225, 225);
   padding: 5% 20%;
 }
+.services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .services__list {
   display: flex;
   flex-wrap: wrap;

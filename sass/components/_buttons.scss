@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 2.5rem;
-    padding:.5rem;
+    padding:1rem .5rem;
     cursor: pointer;
     transition: all .6s ;
   }
@@ -28,15 +28,22 @@
   }
 
   &--black {
-    padding: 10px 22px;
     color: #fff;
     background-color: $primary-color-03;
     transition: background-color 0.1s linear;
+    font-size: 1.7rem;
+    font-weight: 600;
     &:hover {
       background-color: transparent;
       border: 2px solid $primary-color-03;
       color: $primary-color-03;
     }
+  }
+
+  &--group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
   }
 
   &--white {
@@ -83,12 +90,6 @@
     padding: 8px 10px;
   }
 
-  &--group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-  }
 
   &--ghost {
     border: 1px solid rgba(24, 24, 24, 1);

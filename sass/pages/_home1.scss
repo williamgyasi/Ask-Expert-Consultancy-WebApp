@@ -3,7 +3,7 @@
   width: 90%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -25,14 +25,11 @@
   &__container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    // background-color: black;
   }
 
   &__details {
-    //    background-color: brown;
-    flex-basis: 50%;
+    flex: 0 0 45%;
+    background-color: red;
     margin-right: 7rem;
 
     &__subtitle {
@@ -46,6 +43,7 @@
     flex-direction: column;
     position: relative;
     flex: 1;
+    background-color: blue;
     margin-top: 1rem;
     
     &__stats {

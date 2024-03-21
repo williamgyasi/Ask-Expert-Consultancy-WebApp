@@ -107,15 +107,15 @@ a {
 }
 
 .u-margin-top--small {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .u-margin-top--large {
   margin-top: 2rem;
 }
 
-.u-margin-top--small {
-  margin-top: 2rem;
+.u-margin-right-auto {
+  margin-right: auto;
 }
 
 .u-margin-left--small {
@@ -166,7 +166,7 @@ a {
   display: inline-block;
 }
 
-.base-heading-styles, .heading-04 {
+.base-heading-styles, .heading-03, .heading-04 {
   font-family: "Cabin", "Lato", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   line-height: 1;
@@ -182,8 +182,21 @@ a {
   font-size: 4rem;
 }
 
+.heading-03 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
 .heading--white {
   color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.subtitle--white {
+  color: #fff;
 }
 
 .btn, .btn:link, .btn:visited {
@@ -191,7 +204,7 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 2.5rem;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   cursor: pointer;
   transition: all 0.6s;
 }
@@ -208,15 +221,21 @@ a {
   transform: translateY(-2rem);
 }
 .btn--black {
-  padding: 10px 22px;
   color: #fff;
   background-color: rgb(0, 0, 0);
   transition: background-color 0.1s linear;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 .btn--black:hover {
   background-color: transparent;
   border: 2px solid rgb(0, 0, 0);
   color: rgb(0, 0, 0);
+}
+.btn--group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
 }
 .btn--white {
   padding: 10px 22px;
@@ -255,12 +274,6 @@ a {
   color: rgb(0, 0, 0);
   background-color: transparent;
   padding: 8px 10px;
-}
-.btn--group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
 }
 .btn--ghost {
   border: 1px solid rgb(24, 24, 24);
@@ -440,7 +453,7 @@ a {
   width: 90%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -454,16 +467,15 @@ a {
 
 .about {
   margin: 5% 0;
-  padding: 20rem;
+  padding: 4rem 20rem;
 }
 .about__container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 .about__details {
-  flex-basis: 50%;
+  flex: 0 0 45%;
+  background-color: red;
   margin-right: 7rem;
 }
 .about__details__subtitle {
@@ -475,6 +487,7 @@ a {
   flex-direction: column;
   position: relative;
   flex: 1;
+  background-color: blue;
   margin-top: 1rem;
 }
 .about__image__stats {
@@ -1139,10 +1152,13 @@ a {
   margin-right: 1rem;
 }
 .header__banner {
-  height: 75%;
+  height: 80%;
   background-size: cover;
   background-position: bottom;
   position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .header__banner--index {
   background: url("../assets/herobanner.png");
@@ -1170,25 +1186,16 @@ a {
   height: 60%;
 }
 .header__banner__info {
-  position: absolute;
-  left: 10%;
-  bottom: 20%;
   background-color: #fff;
   display: flex;
-  width: 400px;
-  padding: 40px 50px;
+  width: 30%;
+  padding: 3rem;
   flex-direction: column;
-  border-radius: 29px;
+  border-radius: 1rem;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.69);
   backdrop-filter: blur(5.5px);
-}
-.header__banner__info p {
-  color: #595566;
-  font-family: Lato;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 147.5%;
+  margin-left: 15%;
 }
 .header__title {
   position: absolute;

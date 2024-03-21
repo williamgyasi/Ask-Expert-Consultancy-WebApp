@@ -127,7 +127,7 @@ a {
 }
 
 .u-margin-bottom--large {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .u-text-center {
@@ -582,6 +582,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .services__list {
   display: flex;

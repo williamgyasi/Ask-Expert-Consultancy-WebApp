@@ -1,5 +1,24 @@
 @use "../abstracts" as *;
 
+
+.heading-05{
+  font-weight: 500;
+  font-family: "Cabin", $main-text-stack;
+  color: $base-text-color;
+  font-style: normal;
+  line-height: 1;
+  font-size: 5rem
+}
+
+.heading-04{
+  font-weight: 300;
+  font-family: "Cabin", $main-text-stack;
+  color: $base-text-color;
+  font-style: normal;
+  line-height: 1;
+  font-size: 4rem
+}
+
 .heading-01 {
   @include baseHeadingStyles();
   font-size: 5rem;
@@ -20,10 +39,6 @@
   font-size: 3.5rem;
 }
 
-.heading-05 {
-  @include baseHeadingStyles();
-  font-size: 3rem;
-}
 
 .heading-06 {
   @include baseHeadingStyles();

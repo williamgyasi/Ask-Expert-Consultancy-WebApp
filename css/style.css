@@ -372,6 +372,7 @@ a {
   width: 80px;
   border-radius: 100px;
   padding: 1rem;
+  font-size: 1.3rem;
 }
 .swiper-button-next a,
 .swiper-button-prev a {

@@ -209,7 +209,7 @@ a {
   font-weight: 700;
 }
 .subtitle--medium {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 500;
 }
 .subtitle--white {
@@ -714,11 +714,14 @@ a {
   border-radius: 20px;
   border: 1px solid #eaeaea;
   background: #fafafa;
-  width: 210px;
-  height: 180px;
+  width: 190px;
+  height: 160px;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+.process__features__item h3 {
+  margin: 0.5rem 0;
 }
 .process__features__item svg {
   width: 30px;

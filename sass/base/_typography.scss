@@ -34,32 +34,31 @@
   color: #ffffff;
 }
 
-.heading--caps{
+.heading--caps {
   text-transform: uppercase;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1.5rem;
   font-weight: 300;
 
-  &--large{
+  &--large {
     font-size: 2rem;
     font-weight: 700;
   }
 
-  &--medium{
+  &--medium {
     font-size: 1.7rem;
     font-weight: 500;
   }
 
-  &--white{
+  &--white {
     color: #fff;
   }
 }
 
-
-.intro__text{
-  padding: .5rem;
+.intro__text {
+  padding: 0.5rem;
   background-color: green;
   border-radius: 5px;
   display: flex;
@@ -69,7 +68,18 @@
   color: #fff;
   font-weight: 400;
 
-  &--yellow{
+  &--yellow {
     background-color: rgb(170, 170, 33);
+  }
+}
+
+.heading--container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  h4 {
+    width: 68%;
   }
 }

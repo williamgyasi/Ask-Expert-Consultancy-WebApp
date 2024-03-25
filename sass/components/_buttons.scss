@@ -22,6 +22,9 @@
       font-weight: 500;
     }
   }
+  &--fullwidth{
+    width: 100%;
+  }
 
   &:active{
     transform: translateY(-2rem);
@@ -31,12 +34,17 @@
     color: #fff;
     background-color: $primary-color-03;
     transition: background-color 0.1s linear;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    
+    @include respond (phone){
+        font-size: 50rem;
+    }
     &:hover {
       background-color: transparent;
       border: 2px solid $primary-color-03;
       color: $primary-color-03;
+
     }
   }
 
@@ -62,7 +70,8 @@
     padding: 10px 17px;
     color: $primary-color-03;
     background-color: $primary-color;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
     &:hover {
       background-color: $primary-color-03;
       color: #fff;

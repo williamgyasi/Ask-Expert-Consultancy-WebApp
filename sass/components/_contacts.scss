@@ -9,12 +9,15 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    height: 50rem;
   }
 
   &__left {
     // background-color: blue;
-    flex-basis: 35%;
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     margin-right: 8rem;
   }
 
@@ -37,7 +40,10 @@
   }
 
   &__right {
-    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
     flex: 1;
   }
 
@@ -83,6 +89,7 @@
     border-radius: 3.4rem;
     border: 1px solid #c1c1c1;
     background: #fff;
+    border-radius: 1rem;
 
     &:focus:invalid {
       outline: 3px solid red;
